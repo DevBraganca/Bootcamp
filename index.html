@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp DNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="principal">
+    <div class="menu">
+        <a href="http://">Home</a>
+        <a href="http://">Ultimas Edições</a>
+        <a href="http://">Requisitos para Participar</a>
+    </div>          
+         <button id="button">Login</button>
+</nav>
+    <!--Header e fomulario-->
+<section id="secao">
+  <header id="textSuperior">
+       <h1>
+            BOOTCAMP DNC
+       </h1>
+       <h4>
+            Esse será um evento exclusivo para todos os alunos <br>
+            da <b>DNC</b>, que querem
+            acelerar a carreira com uma <br>
+            semana intensiva de conteúdo de mercado entre <br>
+            <div id="a2">BACK-END, FRONT-END & BANCO DE DADOS.</div>
+       </h4>
+  </header>
+    <form id="formulario">
+        <label class="tituloPequeno" for="fname">Nome:</label><br>
+            <input class="caixinha" type="text" id="fname" name="fname" placeholder="Insira aqui seu nome"><br>
+                
+        <label class="tituloPequeno" for="lname">Sobrenome:</label><br>
+            <input class="caixinha" type="text" id="lname" name="lname" placeholder="Insira aqui seu sobrenome"><br><br>
+                
+        <label class="tituloPequeno" >Área de Interesse:</label><br>   
+            <input  type="checkbox" name="Front-End" id="Front-End" value="Front-End">
+        <label class="box" >Front-End</label>
+            <input  type="checkbox" name="Back-End" id="Front-End" value="Back-End">
+        <label class="box" >Back-End</label>
+            <input  type="checkbox" name="Banco de Dados" id="Banco de Dados" value="Banco de Dados">
+        <label class="box" >Banco de Dados</label><br><br>
+
+        <label class="tituloPequeno" for="email">E-mail:</label><br>
+            <input class="caixinha" type="email" id="email" placeholder="Insira aqui seu e-mail" name="email"><br>
+                
+        <label class="tituloPequeno" for="phone">Telefone:</label><br>    
+            <input class="caixinha" type="tel" placeholder="(99)9999-9999" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+                
+        <label class="tituloPequeno" > Insira uma frase criativa aqui:</label><br>
+            <input class="caixinha" type="text" placeholder="Insira aqui uma frase criativa">
+        <div>
+            <button id="btn">Login</button>
+        </div>
+    </form>
+</section>
+<!--Footer-->
+<nav>
+    <footer class="rodape">
+       <div class="textFooter">
+            <ul class="list">
+                <h2 class="a2">
+                    Escolas
+                </h2>
+              <li><a href="http://">Formação em Teconologia </a></li>
+              <li><a href="http://">Formação em Marketing </a></li>
+              <li><a href="http://">Formação em Dados </a></li>
+              <li><a href="http://">Formação em Projetos </a></li>
+              <li><a href="http://">Formação em Produtos </a></li>
+            </ul>
+        </div>
+        <div class="textFooter">
+            <ul class="list">
+                <h2 class="a2">
+                Sobre DNC
+                </h2>
+              <li><a href="http://">Historia</a></li>
+              <li><a href="http://">Missão e Valores</a></li>
+              <li><a href="http://">Trabalhe conosco</a></li>
+              <li><a href="http://">Conteúdo Gratuito</a></li>
+            </ul>
+        </div>
+        <div id="textLateral">
+              <p><b>© 2022 DTC Treinamentos & Consultoria LTDA | CNPJ: 27.995.577/0001-37 | R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030</b></p>
+        </div>
+    </footer>
+</nav>
+ <div id="query">
+    <h2>
+        Termos de Uso | Política de Privacidade
+    </h2>
+ </div>
+
+</body>
+</html>

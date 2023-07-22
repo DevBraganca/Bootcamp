@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #303030;
+}
+#principal{
+    width: 100%;
+    height: 20px;
+    background-color: #303030;    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration:none;
+    text-decoration-color: none;
+    color: white;
+ 
+}
+#button{
+    margin: 0px 40px;
+    width: 100px;
+    height: 39px;
+    flex-shrink: 0;
+    background: #0C70F2;
+    box-shadow: 10px 2px 4px 0px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+    color: white;
+    font-family: Inter;
+}
+/* titulosuperior*/
+#textSuperior{
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 59.91%, rgba(12, 112, 242, 0.00) 94.84%), #303030;
+    
+}
+#textSuperior h1{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+#textSuperior h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center; 
+}
+#a2{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 510px 0px 510px;
+}
+/* formulario*/
+#formulario {
+    text-align: center;
+}
+.tituloPequeno{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    margin-left: 38%;
+    
+}
+.caixinha{
+    margin: 2px 5px 15px 5px;
+    width: 450px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.90);
+    padding-left: 15px;
+}
+#formulario {
+    padding-left: 20px;
+}
+.box{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 10px 0px 10px 15px;
+}
+#btn{
+    margin: 70px 0px 70px 0px;
+    width: 450px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(12, 112, 242, 0.90);
+    box-shadow: 0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+/*footer*/
+footer{
+    background-color: #0C70F2;
+    width: 100%;
+    height: 520px;
+    flex-shrink: 0;    
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width:96.8%;
+    padding: 30px 30px 30px 30px;
+}
+.list{
+    list-style: none;  
+    font-size: 25px;  
+}
+.list li{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.textFooter{
+    font-family: Inter;
+    align-items: center;
+    text-align: center;
+    font-size:25px;
+}
+#textLateral{
+    font-family: Inter;
+    width: 450px;
+    text-align: center;
+    margin: 210px 40px 80px 0px;
+    font-size: 20px;
+}
+.a2{
+    background-color: #303030;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#query{
+    font-family: Inter;
+    text-align: center;
+    color: white;
+    background-color: #0C70F2 ;
+    padding: 1%;
+}
